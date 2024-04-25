@@ -11,7 +11,7 @@
         <div class="action__text-card">
           <p>ROLL OUT</p>
           <h1 class="action__title-card">Automatic Prototyping</h1>
-          <p>
+          <p class="action__p-card">
             Webpack is the most powerful and flexible asset compilation tool available today. With
             that power, however, comes a certain level of complexity.
           </p>
@@ -25,7 +25,7 @@
         <div class="action__text-card">
           <p>SIP COFFEE</p>
           <h1 class="action__title-card">Complexity Simplified</h1>
-          <p>
+          <p class="action__p-card">
             I know too many backend developers who are stifled by one glaring phobia: CSS. How do you construct a layout when nothing lines up?
           </p>
         </div>

@@ -21,7 +21,7 @@
       <div>
         <h1 class="about-section__title-augmented">Augmented</h1>
         <p class="about-section__text-augmented">
-          Word salad often arouses curiosity due to its seemingly intelligent and tasteful play on words.
+          Word salad often arouses curiosity due to its seemingly intelligent and tasteful play on words
         </p>
       </div>
       <img src="../assets/images/product-smartphone.svg" alt="" class="about-section__smartphone-image" />
