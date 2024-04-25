@@ -21,7 +21,7 @@
   }
 }
 
-// HEADER SECTION
+/*HEADER SECTION*/
 .header {
   display: flex;
   margin: 0 0 0 200px;
@@ -32,8 +32,8 @@
     height: auto;
     margin-right: 10px;
   }
-  // Define mixin for common styles
-  @mixin flex-center {
+
+  &__logo-title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,16 +41,16 @@
     cursor: pointer;
   }
 
-  &__logo-title {
-    @include flex-center;
-  }
-
   &__nav-link {
-    @include flex-center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
   }
 }
 
-// HOME SECTION
+/* HOME SECTION */
 .home {
   width: 100%;
   max-width: 650px;
@@ -97,7 +97,7 @@
   }
 }
 
-// ABOUT SECTION
+/* ABOUT SECTION */
 .about-section {
   display: flex;
   flex-direction: column;
@@ -107,7 +107,7 @@
   margin: auto;
   margin-top: 5%;
 
-  //MEET
+  /* MEET */
   &__meet {
     display: flex;
     flex-direction: column;
@@ -127,7 +127,7 @@
     text-align: center;
   }
 
-  //DISCOVER
+  /* DISCOVER */
   &__discover {
     display: flex;
     justify-content: center;
@@ -151,7 +151,7 @@
     height: auto;
   }
 
-  //AUGMENTED
+  /* AUGMENTED */
   &__augmented {
     display: flex;
     justify-content: center;
@@ -176,7 +176,7 @@
     height: auto;
   }
 
-  //ENDLESS POSSIBILITIES
+  /* ENDLESS POSSIBILITIES */
   &__possibilities {
     display: flex;
     justify-content: center;
@@ -201,7 +201,7 @@
   }
 }
 
-//ADVERTISEMENT SECTION
+/* ADVERTISEMENT SECTION */
 .advertise {
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -233,7 +233,7 @@
   }
 }
 
-//ACTION SECTION
+/* ACTION SECTION */
 .action {
   display: flex;
   flex-direction: column;
@@ -257,23 +257,25 @@
     flex-direction: column;
     align-items: center;
   }
-  @mixin automation-simplicity {
+  &__automation-text {
     font-size: 1rem;
     font-weight: 400;
     color: var(--primary-color);
     padding: 4px 6px 4px 6px;
     border-radius: 10px;
     margin-top: 20px;
-  }
-  &__automation-text {
-    @include automation-simplicity;
     background-color: #b28705;
   }
   &__simplicity-text {
-    @include automation-simplicity;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    padding: 4px 6px 4px 6px;
+    border-radius: 10px;
+    margin-top: 20px;
     background-color: #107180;
   }
-  @mixin card {
+  &__first-card {
     height: 50%;
     margin: auto;
     max-width: 600px;
@@ -282,13 +284,17 @@
     display: flex;
     padding: 40px;
     gap: 2rem;
-  }
-  &__first-card {
-    @include card;
     background-color: #ffc107;
   }
   &__second-card {
-    @include card;
+    height: 50%;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 1rem;
+    margin-top: 5%;
+    display: flex;
+    padding: 40px;
+    gap: 2rem;
     background-color: #17a2b8;
   }
   &__card-image {
@@ -313,7 +319,7 @@
   }
 }
 
-//FOOTER
+/* FOOTER */
 .footer {
   background-color: #343a40;
   margin-top: 14%;
@@ -344,25 +350,20 @@
   }
 }
 
-//TABLET VIEW
+/* TABLET VIEW */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .header {
     margin: 0 0 0 20px;
-    // Define mixin for common styles
-    @mixin flex-center {
+    &__logo-title {
       font-size: 2rem;
     }
 
-    &__logo-title {
-      @include flex-center;
-    }
-
     &__nav-link {
-      @include flex-center;
+      font-size: 2rem;
     }
   }
 
-  //HOME SECTION
+  /* HOME SECTION */
   .home {
     max-width: 450px;
     margin: 0 0 0 20px;
@@ -387,11 +388,11 @@
     padding: 30px 0 30px 0;
   }
 
-  // ABOUT SECTION
+  /* ABOUT SECTION */
   .about-section {
     max-width: 900px;
 
-    //MEET
+    /* MEET */
     &__meet {
       margin-bottom: 8%;
       gap: 1.5rem;
@@ -404,7 +405,7 @@
       margin: 10px 0 10px 0;
     }
 
-    //DISCOVER
+    /* DISCOVER */
     &__discover {
       margin-bottom: 8%;
       gap: 1.5rem;
@@ -417,7 +418,7 @@
       margin: 10px 0 10px 0;
     }
 
-    //AUGMENTED
+    /* AUGMENTED */
     &__augmented {
       margin-bottom: 5%;
       gap: 1.5rem;
@@ -431,7 +432,7 @@
       margin: 10px 0 10px 0;
     }
 
-    //ENDLESS POSSIBILITIES
+    /* ENDLESS POSSIBILITIES */
     &__possibilities {
       margin-bottom: 8%;
       gap: 1.5rem;
@@ -449,7 +450,7 @@
     }
   }
 
-  //ADVERTISEMENT SECTION
+  /* ADVERTISEMENT SECTION */
   .advertise {
     padding: 3% 0 3% 0;
     &__title-advertise {
@@ -464,7 +465,7 @@
     }
   }
 
-  //ACTION SECTION
+  /* ACTION SECTION */
   .action {
     &__title-action {
       font-size: 3rem;
@@ -482,7 +483,7 @@
   }
 }
 
-//MOBILE VIEW
+/* MOBILE VIEW */
 @media only screen and (min-width: 375px) and (max-width: 768px) {
   .container {
     &__bg-decals {
@@ -492,21 +493,17 @@
   }
   .header {
     margin: 0 0 0 10px;
-    // Define mixin for common styles
-    @mixin flex-center {
+
+    &__logo-title {
       font-size: 1.5rem;
     }
 
-    &__logo-title {
-      @include flex-center;
-    }
-
     &__nav-link {
-      @include flex-center;
+      font-size: 1.5rem;
     }
   }
 
-  //HOME SECTION
+  /* HOME SECTION */
   .home {
     width: auto;
     max-width: 300px;
@@ -533,9 +530,9 @@
     padding: 20px 0 20px 0;
   }
 
-  //ABOUT SECTION
+  /* ABOUT SECTION */
   .about-section {
-    //MEET
+    /* MEET */
     &__meet {
       margin-bottom: 5%;
       margin-left: 4px;
@@ -550,7 +547,7 @@
       margin: 10px 0 10px 0;
     }
 
-    //DISCOVER
+    /* DISCOVER */
     &__discover {
       margin-bottom: 5%;
       gap: 1rem;
@@ -564,7 +561,7 @@
       margin: 10px 0 10px 0;
     }
 
-    //AUGMENTED
+    /* AUGMENTED */
     &__augmented {
       margin-bottom: 5%;
       gap: 1rem;
@@ -578,7 +575,7 @@
       margin: 10px 0 10px 0;
     }
 
-    //ENDLESS POSSIBILITIES
+    /* ENDLESS POSSIBILITIES */
     &__possibilities {
       margin-bottom: 5%;
       gap: 1rem;
@@ -593,7 +590,7 @@
     }
   }
 
-  //ADVERTISEMENT SECTION
+  /* ADVERTISEMENT SECTION */
   .advertise {
     padding: 1% 0 1% 0;
     &__title-advertise {
@@ -615,7 +612,7 @@
     }
   }
 
-  //ACTION SECTION
+  /* ACTION SECTION */
   .action {
     padding: 0 4px 0 4px;
     &__title-action {
@@ -629,24 +626,22 @@
       flex-direction: column;
       gap: 1.5rem;
     }
-    @mixin automation-simplicity {
-      font-size: 1rem;
-      margin-top: 20px;
-    }
-    @mixin card {
+    &__first-card {
       max-width: 280px;
       border-radius: 1rem;
       margin-top: 2%;
       flex-direction: column;
       padding: 15px;
       gap: 1rem;
-    }
-    &__first-card {
-      @include card;
       background-color: #ffc107;
     }
     &__second-card {
-      @include card;
+      max-width: 280px;
+      border-radius: 1rem;
+      margin-top: 2%;
+      flex-direction: column;
+      padding: 15px;
+      gap: 1rem;
       background-color: #17a2b8;
     }
     &__card-image {
@@ -666,7 +661,7 @@
     }
   }
 
-  //FOOTER
+  /* FOOTER */
   .footer {
     margin-top: 8%;
     padding: 0 4px 0 4px;
