@@ -1,0 +1,392 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #2248e2;
+}
+.container {
+  /* Set background image */
+  background-image: url('@/assets/images/bg-leaves.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+  &__bg-decals {
+    position: absolute;
+    left: -90px;
+    bottom: 0;
+    width: 80%;
+    height: auto;
+    z-index: 0;
+  }
+}
+
+// HEADER SECTION
+.header {
+  display: flex;
+  margin: 0 0 0 200px;
+  padding-top: 20px;
+
+  &__logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  // Define mixin for common styles
+  @mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  &__logo-title {
+    @include flex-center;
+  }
+
+  &__nav-link {
+    @include flex-center;
+  }
+}
+
+// HOME SECTION
+.home {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 0 0 200px;
+  padding: 200px 0 200px 0;
+  &__title {
+    font-size: 3.5rem;
+    font-weight: lighter;
+  }
+  &__text {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 20px 0 20px 0;
+  }
+  &__button {
+    background-color: var(--secondary-color);
+    border: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 12px 16px 12px 16px;
+    cursor: pointer;
+    z-index: 10;
+  }
+}
+.install {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 0;
+  border-right: 0;
+  border-color: gainsboro;
+  border-style: solid;
+  margin: auto;
+  max-width: 1550px;
+  padding: 50px 0 50px 0;
+  &__app-store {
+    cursor: pointer;
+    z-index: 20;
+  }
+}
+
+// ABOUT SECTION
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 990px;
+  margin: auto;
+  margin-top: 5%;
+
+  //MEET
+  &__meet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  &__title {
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  &__text {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 20px 0 20px 0;
+    text-align: center;
+  }
+
+  //DISCOVER
+  &__discover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 10%;
+    gap: 2rem;
+  }
+  &__title-discover {
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  &__text-discover {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 20px 0 20px 0;
+  }
+  &__search-image {
+    width: 50%;
+    height: auto;
+  }
+
+  //AUGMENTED
+  &__augmented {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 10%;
+    direction: rtl;
+    gap: 2rem;
+  }
+  &__title-augmented {
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  &__text-augmented {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 20px 0 20px 0;
+  }
+  &__smartphone-image {
+    width: 50%;
+    height: auto;
+  }
+
+  //ENDLESS POSSIBILITIES
+  &__possibilities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 10%;
+    gap: 2rem;
+  }
+  &__title-possibilities {
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  &__text-possibilities {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 20px 0 20px 0;
+  }
+  &__work-image {
+    width: 50%;
+    height: auto;
+  }
+}
+
+//ADVERTISEMENT SECTION
+.advertise {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0 5% 0;
+  &__title-advertise {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  &__text-advertise {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  &__install-app {
+    display: flex;
+    gap: 2rem;
+    margin-top: 70px;
+  }
+  &__bg-decals {
+    position: absolute;
+    top: -50px;
+    right: 0;
+  }
+}
+  
+//ACTION SECTION
+.action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  &__title-action {
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  &__text-action {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  &__card {
+    display: flex;
+    gap: 2rem;
+  }
+  &__image-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @mixin automation-simplicity {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    padding: 4px 6px 4px 6px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  &__automation-text {
+    @include automation-simplicity;
+    background-color: #b28705;
+  }
+  &__simplicity-text {
+    @include automation-simplicity;
+    background-color: #107180;
+  }
+  @mixin card {
+    height: 50%;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 1rem;
+    margin-top: 5%;
+    display: flex;
+    padding: 40px;
+    gap: 2rem;
+  }
+  &__first-card {
+    @include card;
+    background-color: #ffc107;
+  }
+  &__second-card {
+    @include card;
+    background-color: #17a2b8;
+  }
+  &__card-image {
+    width: 200px;
+    height: auto;
+  }
+  &__text-card {
+    color: var(--primary-color);
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  &__title-card {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10%;
+    margin-top: 2%;
+  }
+  &__bg-decals3 {
+    position: absolute;
+    bottom: -57%;
+    right: 0;
+  }
+}
+
+//FOOTER
+.footer {
+  background-color: #343a40;
+  margin-top: 14%;
+  &__container {
+    width: 100%;
+    max-width: 600px;
+    margin-left: 18%;
+    color: var(--primary-color);
+    font-size: 15px;
+    display: flex;
+    padding-top: 50px;
+    line-height: 1.5;
+  }
+  &__logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    align-items: start;
+  }
+  &__copyrights {
+    width: 100%;
+    max-width: 600px;
+    margin-left: 18%;
+    color: var(--primary-color);
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+}
+
+//DESKTOP VIEW
+ @media (min-width: 1024px) {
+  header {
+    display: flex;
+    padding-right: calc(var(--section-gap) / 2);
+  }
+} 
+
+//MOBILE VIEW
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .header {
+    margin: 0 0 0 10px;
+    // Define mixin for common styles
+    @mixin flex-center {
+      font-size: 1.5rem
+    }
+  
+    &__logo-title {
+      @include flex-center;
+    }
+  
+    &__nav-link {
+      @include flex-center;
+    }
+  }
+  .home {
+    width: auto;
+    max-width: 300px;
+    margin: 0 0 0 10px;
+    padding: 100px 0 100px 0;
+    &__title {
+      font-size: 2.5rem;
+      font-weight: lighter;
+    }
+    &__text {
+      letter-spacing: 1px;
+      font-size: 1rem;
+      font-weight: lighter;
+      margin: 10px 0 10px 0;
+    }
+    &__button {
+      font-size: 1rem;
+      padding: 8px 10px 8px 10px;
+    }
+  }
+} 
