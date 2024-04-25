@@ -662,14 +662,14 @@
     }
   }
 
-  /* FOOTER */
-  .footer {
+   /* FOOTER */
+   .footer {
     margin-top: 8%;
     padding: 0 4px 0 4px;
     &__container {
       width: 100%;
       margin-left: 0;
-      font-size: 1rem;
+      font-size: 13px;
       padding-top: 20px;
     }
     &__logo {
@@ -679,7 +679,7 @@
     }
     &__copyrights {
       width: 100%;
-      font-size: 1rem;
+      font-size: 13px;
       margin-left: 10px;
       margin-top: 10px;
       padding-bottom: 30px;
