@@ -495,101 +495,95 @@
     margin: 0 0 0 10px;
 
     &__logo-title {
-      font-size: 3rem;
-      margin-right: 40px;
+      font-size: 1.5rem;
     }
 
     &__nav-link {
-      font-size: 2.5rem;
+      font-size: 1.5rem;
     }
   }
 
   /* HOME SECTION */
   .home {
     width: auto;
-    max-width: 500px;
+    max-width: 300px;
     margin: 0 0 0 10px;
     padding: 100px 0 100px 0;
     &__title {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
     }
     &__text {
       letter-spacing: 1px;
-      font-size: 2rem;
+      font-size: 1rem;
       margin: 10px 0 10px 0;
     }
     &__button {
-      font-size: 2rem;
-      padding: 12px 16px 12px 16px;
+      font-size: 1rem;
+      padding: 8px 10px 8px 10px;
     }
   }
 
   .install {
     max-width: 620px;
     padding: 20px 0 20px 0;
-    &__app-store {
-      width: 30%;
-      height: auto;
-    }
   }
-
 
   /* ABOUT SECTION */
   .about-section {
     /* MEET */
     &__meet {
-      margin-bottom: 10%;
+      margin-bottom: 5%;
       margin-left: 4px;
       margin-right: 4px;
     }
     &__title {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     &__text {
-      letter-spacing: 2px;
-      font-size: 1.5rem;
+      letter-spacing: 1px;
+      font-size: 1rem;
       margin: 10px 0 10px 0;
     }
 
     /* DISCOVER */
     &__discover {
-      margin-bottom: 10%;
+      margin-bottom: 5%;
       gap: 1rem;
     }
     &__title-discover {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     &__text-discover {
       letter-spacing: 1px;
-      font-size: 1.5rem;
+      font-size: 1rem;
       margin: 10px 0 10px 0;
     }
 
     /* AUGMENTED */
     &__augmented {
-      margin-bottom: 10%;
+      margin-bottom: 5%;
       gap: 1rem;
     }
     &__title-augmented {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     &__text-augmented {
       letter-spacing: 1px;
-      font-size: 1.5rem;
+      font-size: 1rem;
       margin: 10px 0 10px 0;
     }
 
     /* ENDLESS POSSIBILITIES */
     &__possibilities {
-      margin-bottom: 10%;
+      margin-bottom: 5%;
       gap: 1rem;
     }
     &__title-possibilities {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     &__text-possibilities {
       letter-spacing: 1px;
-      font-size: 1.5rem;
+      font-size: 1rem;
       margin: 10px 0 10px 0;
     }
   }
@@ -598,11 +592,11 @@
   .advertise {
     padding: 1% 0 1% 0;
     &__title-advertise {
-      font-size: 3rem;
+      font-size: 2rem;
       margin-bottom: 5px;
     }
     &__text-advertise {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
     &__install-app {
       gap: 1rem;
@@ -620,10 +614,10 @@
   .action {
     padding: 0 4px 0 4px;
     &__title-action {
-      font-size: 3rem;
+      font-size: 2rem;
     }
     &__text-action {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
     &__card {
       display: flex;
