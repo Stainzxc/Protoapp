@@ -60,13 +60,11 @@
   &__title {
     color: var(--paragraph-color);
     font-size: 3.5rem;
-    font-weight: lighter;
   }
   &__text {
     color: var(--paragraph-color);
     letter-spacing: 2px;
     font-size: 1.5rem;
-    font-weight: lighter;
     margin: 20px 0 20px 0;
   }
   &__button {
@@ -126,7 +124,6 @@
     color: var(--paragraph-color);
     letter-spacing: 2px;
     font-size: 1.5rem;
-    font-weight: lighter;
     margin: 20px 0 20px 0;
     text-align: center;
   }
@@ -148,7 +145,6 @@
     color: var(--paragraph-color);
     letter-spacing: 2px;
     font-size: 1.5rem;
-    font-weight: lighter;
     margin: 20px 0 20px 0;
   }
   &__search-image {
@@ -174,7 +170,6 @@
     color: var(--paragraph-color);
     letter-spacing: 2px;
     font-size: 1.5rem;
-    font-weight: lighter;
     margin: 20px 0 20px 0;
   }
   &__smartphone-image {
@@ -199,7 +194,6 @@
     color: var(--paragraph-color);
     letter-spacing: 2px;
     font-size: 1.5rem;
-    font-weight: lighter;
     margin: 20px 0 20px 0;
   }
   &__work-image {
@@ -377,7 +371,6 @@
     padding: 100px 0 100px 0;
     &__title {
       font-size: 2.5rem;
-      font-weight: lighter;
     }
     &__text {
       letter-spacing: 2px;
@@ -518,12 +511,10 @@
     padding: 100px 0 100px 0;
     &__title {
       font-size: 2.5rem;
-      font-weight: lighter;
     }
     &__text {
       letter-spacing: 1px;
       font-size: 1rem;
-      font-weight: lighter;
       margin: 10px 0 10px 0;
     }
     &__button {
