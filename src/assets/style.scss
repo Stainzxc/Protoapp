@@ -356,7 +356,7 @@
   .header {
     margin: 0 0 0 20px;
     &__logo-title {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
 
     &__nav-link {
@@ -370,16 +370,16 @@
     margin: 0 0 0 20px;
     padding: 100px 0 100px 0;
     &__title {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     &__text {
       letter-spacing: 2px;
-      font-size: 1.5rem;
+      font-size: 1rem;
       margin: 20px 0 20px 0;
     }
     &__button {
-      font-size: 1.5rem;
-      padding: 12px 15px 12px 15px;
+      font-size: 1rem;
+      padding: 8px 12px 8px 12px;
     }
   }
   .install {
@@ -395,53 +395,53 @@
     /* MEET */
     &__meet {
       margin-bottom: 8%;
-      gap: 1.5rem;
+      gap: 1rem;
     }
     &__title {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     &__text {
-      font-size: 1.3rem;
+      font-size: 1rem;
       margin: 10px 0 10px 0;
     }
 
     /* DISCOVER */
     &__discover {
       margin-bottom: 8%;
-      gap: 1.5rem;
+      gap: 1rem;
     }
     &__title-discover {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     &__text-discover {
-      font-size: 1.3rem;
+      font-size: 1rem;
       margin: 10px 0 10px 0;
     }
 
     /* AUGMENTED */
     &__augmented {
       margin-bottom: 5%;
-      gap: 1.5rem;
+      gap: 1rem;
     }
     &__title-augmented {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       font-weight: bolder;
     }
     &__text-augmented {
-      font-size: 1.3rem;
+      font-size: 1rem;
       margin: 10px 0 10px 0;
     }
 
     /* ENDLESS POSSIBILITIES */
     &__possibilities {
       margin-bottom: 8%;
-      gap: 1.5rem;
+      gap: 1rem;
     }
     &__title-possibilities {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     &__text-possibilities {
-      font-size: 1.3rem;
+      font-size: 1rem;
       margin: 10px 0 10px 0;
     }
     &__work-image {
@@ -454,10 +454,10 @@
   .advertise {
     padding: 3% 0 3% 0;
     &__title-advertise {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     &__install-app {
-      gap: 1.5rem;
+      gap: 1rem;
       margin-top: 40px;
     }
     &__bg-decals {
@@ -468,12 +468,12 @@
   /* ACTION SECTION */
   .action {
     &__title-action {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     &__card {
       display: flex;
       flex-direction: column;
-      gap: 1.5rem;
+      gap: 1rem;
     }
     &__bg-decals3 {
       position: absolute;
