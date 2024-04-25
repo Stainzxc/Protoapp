@@ -28,9 +28,9 @@
     </div>
     <div class="about-section__possibilities">
       <div>
-        <h1 class="about-section__title-possibilities">Augmented</h1>
+        <h1 class="about-section__title-possibilities">Endless Possibilities</h1>
         <p class="about-section__text-possibilities">
-          Word salad often arouses curiosity due to its seemingly intelligent and tasteful play on words.
+          Management Systems shouldn't be a bore. Run out of words? heres some lorem ipsum: Lorem ipsum dolor sit amet.
         </p>
       </div>
       <img src="../assets/images/product-work.svg" alt="" class="about-section__work-image" />
