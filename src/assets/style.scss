@@ -224,6 +224,7 @@
   }
   &__install-app {
     display: flex;
+    justify-content: center;
     gap: 2rem;
     margin-top: 70px;
   }
@@ -536,12 +537,12 @@
   .about-section {
     /* MEET */
     &__meet {
-      margin-bottom: 5%;
+      margin-bottom: 10%;
       margin-left: 4px;
       margin-right: 4px;
     }
     &__title {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     &__text {
       letter-spacing: 2px;
@@ -551,11 +552,11 @@
 
     /* DISCOVER */
     &__discover {
-      margin-bottom: 5%;
+      margin-bottom: 10%;
       gap: 1rem;
     }
     &__title-discover {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     &__text-discover {
       letter-spacing: 1px;
@@ -565,11 +566,11 @@
 
     /* AUGMENTED */
     &__augmented {
-      margin-bottom: 5%;
+      margin-bottom: 10%;
       gap: 1rem;
     }
     &__title-augmented {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     &__text-augmented {
       letter-spacing: 1px;
@@ -579,11 +580,11 @@
 
     /* ENDLESS POSSIBILITIES */
     &__possibilities {
-      margin-bottom: 5%;
+      margin-bottom: 10%;
       gap: 1rem;
     }
     &__title-possibilities {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     &__text-possibilities {
       letter-spacing: 1px;
@@ -618,10 +619,10 @@
   .action {
     padding: 0 4px 0 4px;
     &__title-action {
-      font-size: 4rem;
+      font-size: 3rem;
     }
     &__text-action {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     &__card {
       display: flex;
