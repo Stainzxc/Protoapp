@@ -487,6 +487,7 @@
 
   //ACTION SECTION
   .action {
+    padding: 0 4px 0 4px;
     &__title-action {
       font-size: 2rem;
     }
@@ -501,7 +502,7 @@
       margin-top: 20px;
     }
     @mixin card {
-      max-width: 300px;
+      max-width: 280px;
       border-radius: 1rem;
       margin-top: 2%;
       flex-direction: column;
